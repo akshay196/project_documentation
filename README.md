@@ -3,7 +3,7 @@
 - Basic introduction of project
 - Information about group
 - About this book
-- Book Naviagtion: Online description about chapters
+- Book Naviagtion: One line description about chapters
 - Resources: Links of code repo, blogs, websites
 - Conventions used in the book
 

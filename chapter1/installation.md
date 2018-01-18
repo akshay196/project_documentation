@@ -2,12 +2,12 @@
 
 When ManageIQ has to be used in production environment, users normally download virtual appliances and deploy onto virtualization platform like OpenStack or VMware.
 
-There are simpler ways to know ManageIQ. For getting started with ManageIQ, it can run as:
+There are simple ways to explore ManageIQ. For getting started with ManageIQ, it can run as:
 - [Docker](https://enhance-manageiq.github.io/2017-10-10-run-manageiq-using-docker/) - Run ManageIQ as a Docker container
 - Vagrant Box
 - In Public Cloud such as Google Cloud Platform
 
-For this guide, we will launch ManageIQ virtual appliance on QEmu/KVM. It is then configured to integrate with OpenStack which will be explained in [chapter 2](../chapter2/README.md). It can also be connect to other virtualization platforms.
+For this guide, we will launch ManageIQ virtual appliance on QEmu/KVM. It is then configured to integrate with OpenStack which will be explained in [chapter 2](../chapter2/README.md). It can also connect to other virtualization platforms.
 
 ### Download appliance
 
@@ -20,11 +20,11 @@ Let's get started for setup. For this, we require ManageIQ appliance which is av
 
 Create a new virtual machine and import existing disk image i.e. downloaded disk. To run well, it should have minimum,
  - 8 GB of RAM
- - 4 virtual CPUs allocation
+ - 4 virtual CPUs
 
 ### Launch virtual machine
 
-Start up your virtual machine. Once it is booted successfully, it will ask for credentials to login in.
+Start up your virtual machine. Once it is booted successfully, it will ask for credentials to login.
 
 ![appliance screen](../images/chapter1/appliance_screen.png "Appliance Screen")
 

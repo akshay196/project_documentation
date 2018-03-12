@@ -16,15 +16,30 @@ On the next step, we need to mark external network as External. To do this, Navi
 
 ### Create Router
 
-We need to create router to communicate between two networks. Go to **Project &rarr; Network &rarr; Routers** and click on Create Router.r
+We need to create router to communicate between two networks. Go to **Project &rarr; Network &rarr; Routers** and click on Create Router.
 
 ![Create Router](../images/chapter2/Create_Router.png)
 
-Once router has been created, go to interface of that router and click on Add Interface. Select internal network and hit on Submit. We can see the whole network map in **Project &rarr; Network &rarr; Network Topology.**
+Once router has been created, go to interface tab of that router and click on Add Interface. Select internal network and hit on Submit. We can see the whole network map in **Project &rarr; Network &rarr; Network Topology.**
 
 ![Network Map](../images/chapter2/Network_Map.png)
 
 
 ## OpenStack Configuration
 
-OpenStack uses ini format for configuration files.
+OpenStack has different components like Neutron, Nova etc., those are already mentioned in [chapter2.1](openstack_info.md). Each components uses similar kind of configuration techniques and _ini_ format for configuration files.
+
+An ini is simple text file which contains options as `key=value` pairs and grouped into sections.
+
+```
+[DEFAULT]
+# Defines which driver to use for controlling virtualization.
+compute_driver=libvirt.LibvirtDriver
+
+[api_database]
+# Interval between retries of opening a SQL connection. (integer value)
+retry_interval=10
+
+```
+
+As required, we need to change this configuration further. On [OpenStack docs](https://docs.openstack.org/ocata/config-reference/config-format.html), provided more information about configuration file format.

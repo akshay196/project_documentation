@@ -1,14 +1,14 @@
-Once the installation of OpenStack is done, we need to configure OpenStack Network to enable access to it's instances.
+Once the installation of OpenStack is done, we need to configure OpenStack Network to access it's instances.
 
 ## Configure OpenStack Network
 
-Login into OpenStack dashboard using admin credentials. Go to **Project &rarr; Networks.** While on this page, hit on **Create Network** button and setup internal network as follows:
+Login to OpenStack dashboard using admin credentials. Go to **Project &rarr; Networks.** While on this page, hit **Create Network** button and setup internal network as follows:
 
-![Create network in OpenStack](../images/chapter2/Create_Network_step1.png)
+![Create network in OpenStack](../images/chapter2/Create_Network_step1.png "Create network in OpenStack")
 
-![Create subnet for network](../images/chapter2/Create_Network_step2.png)
+![Create subnet for network](../images/chapter2/Create_Network_step2.png "Create subnet for network")
 
-![Enable DHCP](../images/chapter2/Create_Network_step3.png)
+![Enable DHCP](../images/chapter2/Create_Network_step3.png "Enable DHCP")
 
 Next, use the above steps to create external network. Make sure that IP address for external network is in same network range as your compute node IP address range.
 
@@ -18,16 +18,16 @@ On the next step, we need to mark external network as External. To do this, Navi
 
 We need to create router to communicate between two networks. Go to **Project &rarr; Network &rarr; Routers** and click on Create Router.
 
-![Create Router](../images/chapter2/Create_Router.png)
+![Create Router](../images/chapter2/Create_Router.png "Create Router")
 
 Once router has been created, go to interface tab of that router and click on Add Interface. Select internal network and hit on Submit. We can see the whole network map in **Project &rarr; Network &rarr; Network Topology.**
 
-![Network Map](../images/chapter2/Network_Map.png)
+![Network Map](../images/chapter2/Network_Map.png "Network Map")
 
 
 ## OpenStack Configuration
 
-OpenStack has different components like Neutron, Nova etc., those are already mentioned in [chapter2.1](openstack_info.md). Each components uses similar kind of configuration techniques and _ini_ format for configuration files.
+OpenStack has different components like Neutron, Nova etc., those are already mentioned in [chapter2.1](openstack_info.md). Each component uses similar kind of configuration techniques and _ini_ format for configuration files.
 
 An ini is simple text file which contains options as `key=value` pairs and grouped into sections.
 

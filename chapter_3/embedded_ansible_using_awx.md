@@ -25,7 +25,7 @@ docker.io/rabbitmq           3                   02c3edbcf3d1        3 weeks ago
 ```
 
 These four docker images are necessary to start awx properly.
-AWX docker containers are linked together. You can view the running containers using `docker ps` command, as follows:
+AWX docker containers are linked together. To view the running containers, use `docker ps` command:
 
 ```
 [root@localhost ~]# docker ps
@@ -54,7 +54,7 @@ To display logs in terminal, type command as follow:
 
 #### Access AWX Bash
 
-Sometimes, we need to access bash for the containers like to check status of ansible job. To access the bash of awx_task, run `docker exec -it <container id> /bin/bash` command.
+Sometimes, it is need to access bash for the containers like to check status of ansible job. To access the bash of awx_task, run `docker exec -it <container id> /bin/bash` command.
 
 ```
 [root@localhost ~]# docker exec -it 88542be75c63 /bin/bash

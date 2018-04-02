@@ -1,4 +1,3 @@
-###
 # Automate hybrid cloud management using ManageIQ and Ansible
 
 Now a days, Automation is the mother of all the inventions, that give
@@ -36,8 +35,10 @@ far as ManageIQ is concerned i.e. Either install Ansible separately from
 lifecycle or enable Embedded Ansible in ManageIQ. For this project we
 are going to use Embedded Ansible in ManageIQ.
 
-### About Book This book is about the automation of hybrid cloud using
-ManageIQ and Ansible. This book is a guide that helps the person wishing
+### About Book
+
+This book is about the automation of hybrid cloud using ManageIQ and
+Ansible. This book is a guide that helps the person wishing
 to work towards the automation of hybrid cloud. This will help you
 understand all the basic installations of the components. It also
 explains the problems faced with some attributes that will help you know
@@ -49,10 +50,10 @@ eliminated by the automation procedure that helps to ease the process as
 well.
 
 ### Book Navigation
+
 - [**_Chapter 1_**](chapter1/README.md): This contains the introduction
   of the important part of project i.e. ManageIQ. ManageIQ installation,
 its appliance console and basic configuration is also discussed.
-
 
 - [**_Chapter 2_**](chapter2/README.md): The OpenStack basics are
   introduced in this chapter. Installation of OpenStack using packstack
@@ -60,6 +61,7 @@ and its configuration is also mentioned. You may also look for launching
 an instance in OpenStack and the integration of OpenStack with ManageIQ.
 
 ### Resources
+
 - Project Reference -
   https://github.com/rh-universityoutreach-india/projects/pull/21
 

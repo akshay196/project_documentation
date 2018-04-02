@@ -1,4 +1,4 @@
-# Walk to the chapter
+## Walk to the chapter
 
 This chapter will talk about every bit and byte of ManageIQ. It will
 serve as guidelines for all those folks who wish to start with it. The
@@ -9,17 +9,17 @@ otherwise the system may hang completely.
 
 Let's quickly go through the stuffs discussed within the chapter.
 
-##### 1. Introduction to ManageIQ
+#### 1. Introduction to ManageIQ
 
 This part is all about the concept of ManageIQ. It makes the reader
 fully aware about it's ability and capabilities.
 
-##### 2. Installation
+#### 2. Installation
 
 Here installation of ManageIQ used during the project is discussed
 thoroughly.
 
-##### 3. Appliance Console
+#### 3. Appliance Console
 
 The Appliance Console part shows all the default configurations of
 ManageIQ.

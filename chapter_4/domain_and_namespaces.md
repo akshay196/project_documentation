@@ -1,8 +1,9 @@
 ## Domain
 
 A domain is a collection of namespaces, classes, instances and methods.
-ManageIQ ship with single domain called ManageIQ. It is in locked state
-which means it is read-only.
+ManageIQ ship with single domain having name as *ManageIQ*. By default,
+it is in locked state which means it is read-only. ManageIQ allow users
+to override this by using custom domains with higher priority.
 
 To explore Datastores present in ManageIQ, navigate to **Automation
 &rarr; Automate &rarr; Explorer**. When on the page, click on Datastores
@@ -16,7 +17,8 @@ export domains, which we will see further.
 
 ### Domain Priority
 
-To prioritize user-added domains, select Datastores and click
+Automation functions are executed on their order of priority. To
+change priority order of user-added domains, select Datastores and click
 **Configuration &rarr; Edit Priority order of Domains**. Then we get
 options to prioritize domains.
 
@@ -26,7 +28,7 @@ Priority")
 | Note | Make sure that domain is at highest priority to use it. |
 |------|:-------|
 
-### Domain Export
+### Exporting Domain
 
 An automate domain can be exported into a directory or a zip file.
 
@@ -43,7 +45,7 @@ To export domain into a zip file, use the following,
 | Tip | For this, import/export script is available. This can be installed on appliance following instructions on https://github.com/rhtconsulting/cfme-rhconsulting-scripts |
 |-----|:------|
 
-### Domain Import
+### Importing Domain
 
 It is possible to import domain into a new domain. Domain can be
 imported from a directory or from a zip file.

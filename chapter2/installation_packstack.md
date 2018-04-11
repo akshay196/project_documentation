@@ -92,7 +92,8 @@ Configurations in answer file is provided as following form:
 KEY=VALUE
 ```
 
-See [full answer file](packstack-answers-20171208-124656.txt).
+See [answer file](packstack-answers-20171208-124656.txt) for full
+details.
 
 | Key | Value   | Description |
 |-----|:-------:|-------------|
